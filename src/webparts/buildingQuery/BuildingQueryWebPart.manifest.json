@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "cc8a9c9d-afef-40f2-b460-3e595d42c5e5",
+  "alias": "BuildingQueryWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Other" },
+      "title": { "default": "building-query" },
+      "description": { "default": "Query building information" },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Query building information"
+      }
+    }
+  ]
+}

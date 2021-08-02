@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "building-query-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/buildingQuery/BuildingQueryWebPart.js",
+          "manifest": "./src/webparts/buildingQuery/BuildingQueryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+      "globalName": "jquery"
+    },
+    "bootstrap": {
+      "path": "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": ["jquery"]
+    },
+    "appjs": {
+      "path": "./lib/webparts/buildingQuery/scripts/app.js",
+      "globalName": "appjs"
+    },
+    "sppeoplepicker": {
+      "path": "./lib/webparts/buildingQuery/scripts/sp.peoplepicker.js",
+      "globalName": "sppeoplepicker"
+    },
+    "MicrosoftAjax": {
+      "path": "https://ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js",
+      "globalName": "MicrosoftAjax"
+    }
+  },
+  "localizedResources": {
+    "BuildingQueryWebPartStrings": "lib/webparts/buildingQuery/loc/{locale}.js"
+  }
+}
