@@ -1291,7 +1291,7 @@ var MANIFESTS_ARRAY = [
       "scriptResources": {
         "building-query-web-part": {
           "type": "path",
-          "path": "building-query-web-part_d21c77db246eb8cfd1a0.js"
+          "path": "building-query-web-part_039690549f00156675ae.js"
         },
         "@microsoft/sp-property-pane": {
           "type": "component",

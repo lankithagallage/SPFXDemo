@@ -3,9 +3,8 @@
   "solution": {
     "name": "spfx-demo-client-side-solution",
     "id": "04941976-182f-4762-bb89-4fe521681b66",
-    "version": "1.0.0.5",
+    "version": "1.0.0.11",
     "includeClientSideAssets": true,
-    "isDomainIsolated": true,
     "developer": {
       "name": "",
       "websiteUrl": "",

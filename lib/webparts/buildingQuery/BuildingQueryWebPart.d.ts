@@ -14,14 +14,6 @@ export interface ISPList {
 export default class BuildingQueryWebPart extends BaseClientSideWebPart<IBuildingQueryWebPartProps> {
     render(): void;
     protected get dataVersion(): Version;
-    PopulateSubCategory(): void;
-    private _getSubCategoryData;
-    private getSubCategoryData;
-    private CancelForm;
-    private GetQueryStringByParameter;
-    private SubmitData;
-    private GetUserId;
-    private _renderSubCategoryList;
     protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration;
 }
 //# sourceMappingURL=BuildingQueryWebPart.d.ts.map

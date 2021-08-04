@@ -21,14 +21,6 @@
       "globalName": "bootstrap",
       "globalDependencies": ["jquery"]
     },
-    "appjs": {
-      "path": "./lib/webparts/buildingQuery/scripts/app.js",
-      "globalName": "appjs"
-    },
-    "sppeoplepicker": {
-      "path": "./lib/webparts/buildingQuery/scripts/sp.peoplepicker.js",
-      "globalName": "sppeoplepicker"
-    },
     "MicrosoftAjax": {
       "path": "https://ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js",
       "globalName": "MicrosoftAjax"
