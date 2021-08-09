@@ -34,7 +34,7 @@
     "scriptResources": {
       "building-query-web-part": {
         "type": "path",
-        "path": "building-query-web-part_039690549f00156675ae.js"
+        "path": "building-query-web-part_674c5896af2f75269c87.js"
       },
       "@microsoft/sp-property-pane": {
         "type": "component",
